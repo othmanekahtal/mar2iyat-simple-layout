@@ -1,0 +1,92 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+@font-face{
+      font-family: fontpage;
+      src: url('../fonts/Air\ Strip\ Arabic.ttf');
+}
+body{
+      direction: rtl;
+      height: 100vh;
+      font-family: 'fontpage';
+      color: white;
+      background-image: linear-gradient(rgba(63, 63, 63, 0.5),rgba(0,0,0,0.5)),url("../images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg");
+      background-position: center;
+      background-size: cover;
+}
+header{
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+}
+header .logo{
+      flex-basis: 40%;
+      padding-right: 75px;
+      line-height: 2;
+
+}
+header nav{
+      flex-basis: 60%;
+
+}
+header nav ul{
+      display: flex;
+      justify-content: flex-end;
+
+}
+header nav li{
+      padding: 10px;
+      list-style: none;
+      flex-basis: 120px;
+      text-align: center;
+      transition: all .25s ease-in-out;
+}
+header nav li:hover{
+      border: none;
+      background-color: rgb(69, 134, 253);
+}
+header nav li a{
+      text-decoration: none;
+      color: white;
+
+}
+section{
+      margin: 200px;
+      text-align: center;
+}
+section .txt{
+      font-size: 25px;
+      font-weight: bold;
+
+}
+section .btns{
+      padding-top: 50px;
+      display: flex;
+      justify-content: center;
+
+}
+section .btns button{
+      padding:10px;
+      width: 100px;
+      font-family: 'fontpage';
+      color: white;
+      border: none;
+      background-color: rgb(69, 134, 253);
+      
+}
+section .btns button:hover{
+      background-color: white;
+      color: black;
+}
+
+section .btns .dg{
+      background-color: white;
+      color: black;
+      margin-right: 55px;
+}
+section .btns .dg:hover{
+      color: white;
+      background-color: rgb(69, 134, 253);
+}
