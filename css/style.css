@@ -16,6 +16,9 @@ body{
       background-position: center;
       background-size: cover;
 }
+button{
+      cursor:pointer;
+}
 header{
       padding-top: 20px;
       display: flex;
@@ -68,7 +71,6 @@ section .btns{
 
 }
 section .btns button{
-      cursor:pointer;
       padding:10px;
       width: 100px;
       font-family: 'fontpage';
